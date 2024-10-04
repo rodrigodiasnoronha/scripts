@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                // Versão do ECMAScript a ser gerada
+      "module": "CommonJS",              // Módulo padrão para Node.js
+      "strict": true,                    // Ativa todas as verificações estritas
+      "esModuleInterop": true,           // Compatibilidade com importação de módulos ES6
+      "skipLibCheck": true,              // Ignora a verificação de tipos nas bibliotecas
+      "forceConsistentCasingInFileNames": true,  // Garante que os nomes de arquivos sejam consistentes
+      "outDir": "./dist",                // Diretório onde os arquivos compilados serão colocados
+      "rootDir": "./src"                 // Diretório principal dos arquivos TypeScript
+    },
+    "include": ["src/**/*"],             // Inclui todos os arquivos TypeScript da pasta "src"
+    "exclude": ["node_modules"]          // Exclui a pasta node_modules
+}
