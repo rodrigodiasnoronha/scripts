@@ -225,7 +225,7 @@ export class Excel {
      */
     private writeGrupoSqlFile() {
         for (const grupo of this.grupos) {
-            const sql = `INSERT INTO user_management.grupo (id, grupo, created_at, updated_at, deleted_at, deleted) VALUES (${grupo.index}, '${grupo["GRUPO "]}', '2024-03-10 00:00:14.611472 +00:00', null, null, false)\n`;
+            const sql = `INSERT INTO user_management.grupo (id, grupo, created_at, updated_at, deleted_at, deleted) VALUES (${grupo.index}, '${grupo["GRUPO "]}', '2024-03-10 00:00:14.611472 +00:00', null, null, false);\n`;
             this.grupoSqlFile.write(sql);
         }
     }
