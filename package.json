@@ -12,12 +12,15 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.7.4",
+    "@types/nodemailer": "^6.4.16",
     "ts-node": "^10.9.2",
     "tsc": "^2.0.4",
     "tslib": "^2.7.0",
     "typescript": "^5.6.2"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "nodemailer": "^6.9.15",
     "xlsx": "^0.18.5"
   }
 }
